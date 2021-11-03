@@ -1,0 +1,20 @@
+{
+  "name": "jankx/plugins-specs",
+  "description": " Define specs of WordPress plugins to reuse ",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Puleeno Nguyen",
+      "email": "puleeno@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jankx\\Plugins\\": "src/"
+    }
+  },
+  "version": "1.0.0"
+}
